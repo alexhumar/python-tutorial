@@ -1,3 +1,4 @@
 #Comentario de una linea
-#Esto que sigue no se si es realmente un comentario: """Este es un comentario multilinea"""
+"""Este es un string multilinea que por si solo python no lo interpreta,
+   asi que puede ser utilizado como comentario multilinea"""
 print("Hola Mundo!")
