@@ -18,3 +18,11 @@ print("Finish")
 # Parameters vs. Arguments:
 # Parameters: are the placeholders that we define in a function for receiving information (e.g: name)
 # Arguments: are the actual piece of information that we supply to a function (e.g.: "John", "Mary")
+
+
+# Returning values. IMPORTANT: By default, all functions return the value None.
+def square(number: int):
+    return number * number
+
+
+print(square(9))
